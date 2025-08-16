@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: skyblue;
+    font-family: Arial, sans-serif;
+}
+
+/* Van */
+#van {
+    position: absolute;
+    left: -250px;
+    bottom: 50px;
+    width: 250px;
+    height: auto;
+}
+
+/* Human */
+#human {
+    position: absolute;
+    bottom: 50px;
+    width: 100px;
+    height: auto;
+}
+
+/* Login Form */
+#loginForm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#loginForm h2 {
+    text-align: center;
+}
+
+#loginForm input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkred;
+}
